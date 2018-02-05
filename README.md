@@ -1,0 +1,8 @@
+# CustomIdentityMVC
+ASP.NET Identity is the latest in a series of frameworks that exist as part of ASP.NET for authenticating users. There are many ways for users to be authenticated, but ASP.NET Identity handles the complex logic involving password hashing, generating and securing user tokens, and other such things that exist as "solved" problems. It also allows you to easily plug in custom data stores or implementations of whichever logic needs to be overridden.
+
+ASP.NET Identity is the latest in a series of frameworks that exist as part of ASP.NET for authenticating users. There are many ways for users to be authenticated, but ASP.NET Identity handles the complex logic involving password hashing, generating and securing user tokens, and other such things that exist as "solved" problems. It also allows you to easily plug in custom data stores or implementations of whichever logic needs to be overridden.
+
+To clear up some potential confusion, I should mention two words that are often seen when dealing with access control: authentication and authorization. These are two separate pieces of access control, but are sometimes incorrectly used interchangeably.
+
+Authentication is the first step, which is to determine that the user actually is who they are claiming to be. For a long time this has been done with a username and password, where the username represents who the user is claiming to be and the password is the proof that they are that person (operating under the assumption that no one else knows the password). Two-factor authentication, now rapidly increasing in popularity, takes it a step further by requiring the user to supply an additional piece of information.
